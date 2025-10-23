@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 
 @import "tailwindcss";
@@ -9,5 +10,8 @@
 
 * {
   font-family: "Manrope", sans-serif;
+}
+.font{
+  font-family: "Share Tech", sans-serif;
 
 }

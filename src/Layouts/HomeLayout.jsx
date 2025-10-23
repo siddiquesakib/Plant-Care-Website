@@ -6,6 +6,7 @@ import HeroSection from "../Component/HeroSection";
 import TopSixCard from "../Component/TopSixCard";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Tips from "../Component/Tips";
+import Team from "../Component/Team";
 
 const HomeLayout = () => {
   const loadData = useLoaderData();
@@ -38,6 +39,10 @@ const HomeLayout = () => {
             </h1>
           </div>
           <Tips />
+          <div className="flex justify-between pt-22">
+            <h1 className="text-4xl  text-start ">Meet Our Team</h1>
+          </div>
+          <Team />
         </div>
       </div>
       <Footer></Footer>

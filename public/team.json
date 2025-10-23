@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Lily Green",
+    "specialization": "Horticultural Scientist",
+    "image": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c5b650f84c96b29f91489c_team-thumb-03-p-500.jpg",
+    "bio": "Dr. Green specializes in plant pathology and sustainable gardening practices. Her research helps optimize plant health in diverse environments."
+  },
+  {
+    "id": 2,
+    "name": "Mark Sprout",
+    "specialization": "Urban Garden Designer",
+    "image": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c5b650b088f7ca99114163_team-thumb-02-p-500.jpg",
+    "bio": "Mark focuses on creating beautiful and functional green spaces for city dwellers, using drought-tolerant and native species to promote eco-friendly design."
+  },
+  {
+    "id": 3,
+    "name": "Sara Bloom",
+    "specialization": "Organic Farming Specialist",
+    "image": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c5b6519f13db834dbee64e_team-thumb-04-p-500.jpg",
+    "bio": "Sara is passionate about chemical-free cultivation and soil enrichment. She helps home gardeners grow nutritious, organic produce with sustainable techniques."
+  },
+  {
+    "id": 4,
+    "name": "David Root",
+    "specialization": "Tree Care & Arborist",
+    "image": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c5b6513f97f808d2c34ac6_team-thumb-05-p-500.jpg",
+    "bio": "David is a certified arborist offering expert guidance on tree health, pruning, and disease prevention for both urban and rural landscapes."
+  }
+]
