@@ -7,6 +7,7 @@ import TopSixCard from "../Component/TopSixCard";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Tips from "../Component/Tips";
 import Team from "../Component/Team";
+import Review from "../Component/Review";
 
 const HomeLayout = () => {
   const loadData = useLoaderData();
@@ -43,6 +44,10 @@ const HomeLayout = () => {
             <h1 className="text-4xl  text-start ">Meet Our Team</h1>
           </div>
           <Team />
+          <div className="flex justify-between pt-22">
+            <h1 className="text-4xl  text-start ">Clients Review</h1>
+          </div>
+          <Review />
         </div>
       </div>
       <Footer></Footer>

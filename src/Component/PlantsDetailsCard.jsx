@@ -1,4 +1,5 @@
 import React from "react";
+import { IoIosStarOutline } from "react-icons/io";
 import { toast } from "react-toastify";
 
 const PlantsDetailsCard = ({ detail }) => {
@@ -17,12 +18,11 @@ const PlantsDetailsCard = ({ detail }) => {
   const handleBookNow = (e) => {
     e.preventDefault();
     toast.success("Booking successful");
+    e.target.reset();
   };
   return (
     <div className="bg-gradient-to-b from-[#f8f9f6] to-[#ffffff] min-h-screen pb-16">
-      {/* Plant Details Section */}
       <div className="max-w-6xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col md:flex-row items-center md:items-start md:gap-10 p-6 md:p-12 mt-10">
-        {/* Image */}
         <div className="md:w-1/2 w-full">
           <img
             src={image}
@@ -31,7 +31,6 @@ const PlantsDetailsCard = ({ detail }) => {
           />
         </div>
 
-        {/* Details */}
         <div className="md:w-1/2 w-full mt-8 md:mt-0 space-y-4">
           <h1 className="text-4xl font-extrabold text-[#2a7d2e] mb-3 leading-tight">
             {plantName}
@@ -50,8 +49,8 @@ const PlantsDetailsCard = ({ detail }) => {
               <span className="text-green-600 font-bold">${price}</span>
             </p>
             <p>
-              <span className="font-semibold text-gray-900">Rating:</span>{" "}
-              <span className="text-yellow-500">⭐ {rating}</span>
+              <span className="font-semibold text-gray-900">Price:</span>{" "}
+              <span className="text-black font-bold">{rating}</span>
             </p>
             <p>
               <span className="font-semibold text-gray-900">
@@ -71,7 +70,6 @@ const PlantsDetailsCard = ({ detail }) => {
         </div>
       </div>
 
-      {/* Book Consultation Section */}
       <div className="mt-20 max-w-2xl mx-auto p-6 md:p-10">
         <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-10 border-t-4 border-[#2a7d2e]">
           <div className="text-center mb-8">
@@ -84,7 +82,6 @@ const PlantsDetailsCard = ({ detail }) => {
           </div>
 
           <form onSubmit={handleBookNow} className="space-y-6">
-            {/* Name Field */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Name
@@ -96,8 +93,6 @@ const PlantsDetailsCard = ({ detail }) => {
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
               />
             </div>
-
-            {/* Email Field */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Email
@@ -109,8 +104,6 @@ const PlantsDetailsCard = ({ detail }) => {
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent outline-none transition"
               />
             </div>
-
-            {/* Button */}
             <button
               type="submit"
               className="w-full cursor-pointer bg-[#2a7d2e] text-white px-4 py-2 rounded-lg hover:bg-[#222e1f] transition-colors duration-900 text-center"

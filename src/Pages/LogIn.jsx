@@ -59,7 +59,7 @@ const LogIn = () => {
             <p className="text-gray-600">Welcome back to GreenNest</p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-xl p-8">
+          <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-[#2a7d2e]">
             <form onSubmit={handleLogin} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">

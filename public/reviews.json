@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "review": "The service was absolutely exceptional! From the moment I contacted them, they provided thorough guidance tailored to my garden's unique needs. Every suggestion they made has been spot on, and my garden has never looked more vibrant and healthy. Their team is knowledgeable, patient, and truly passionate about plants. I couldn't be happier with the results and the personalized attention they gave me.",
+    "name": "Sarah M.",
+    "location": "California",
+    "rating": 5,
+    "img": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c57a36c549da3c2c76379f_review-thumb-06.jpg"
+  },
+  {
+    "id": 2,
+    "review": "I was struggling to keep my indoor plants alive, but their expertise completely changed that. The instructions they provided were not only clear but also easy to implement, and I started seeing improvements almost immediately. They answered all my questions patiently and gave tips that I would have never thought of on my own. My apartment now feels alive with thriving greenery, and I feel confident taking care of my plants.",
+    "name": "David T.",
+    "location": "New York",
+    "rating": 4,
+    "img": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c57a36a386d315450ffb54_review-thumb-07.jpg"
+  },
+  {
+    "id": 3,
+    "review": "I am beyond impressed with their attention to detail and genuine care. Every plant in my backyard has flourished thanks to their guidance. They taught me how to properly water, prune, and fertilize, explaining the reasons behind each step. The team also suggested creative arrangements that make my garden look stunning year-round. It's not just service; it's a full education in plant care that has made a huge difference in my life.",
+    "name": "Emily R.",
+    "location": "Florida",
+    "rating": 5,
+    "img": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "id": 4,
+    "review": "From start to finish, the team was friendly, professional, and incredibly knowledgeable. They helped me choose the perfect plants for my balcony and explained how to maintain them in detail. I appreciated their hands-on approach and the extra tips they provided for seasonal care. Now, my balcony has become a small oasis, and I enjoy spending time there every day. Their service exceeded all my expectations.",
+    "name": "Michael B.",
+    "location": "Texas",
+    "rating": 4,
+    "img": "https://randomuser.me/api/portraits/men/76.jpg"
+  }
+]

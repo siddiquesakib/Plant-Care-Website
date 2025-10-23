@@ -66,7 +66,7 @@ const Register = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-xl p-8">
+          <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-[#2a7d2e]">
             <form onSubmit={handleRegister} className="space-y-6">
               {/* Name */}
               <div>
