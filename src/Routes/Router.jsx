@@ -5,7 +5,7 @@ import LogIn from "../Pages/LogIn";
 import Register from "../Pages/Register";
 import AuthLayout from "../Layouts/AuthLayout";
 import Plants from "../Pages/Plants";
-import plantDetails from "../Pages/plantDetails";
+import PlantDetails from "../Pages/plantDetails";
 
 export const router = createBrowserRouter([
   {
@@ -18,8 +18,9 @@ export const router = createBrowserRouter([
     loader: () => fetch("/plants.json"),
   },
   {
-    path: "/plantdetails/:id",
-    Component: plantDetails,
+    path: "/plant-details/:id",
+    Component: PlantDetails,
+    loader: () => fetch("/plants.json"),
   },
   {
     path: "/auth",

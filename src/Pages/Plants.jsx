@@ -11,8 +11,8 @@ const Plants = () => {
     <div>
       <Navbar />
       <div className="bg-[#f7f6f1]">
-        <h1 className="container mx-auto">plats{data.length} </h1>
-        <dir className="container mx-auto grid grid-cols-4 gap-6 p-6">
+        <h1 className="container mx-auto">Total Plats ({data.length}) </h1>
+        <dir className="container mx-auto grid md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
           {" "}
           {data.map((plant) => (
             <PlantsCard key={plant.plantId} plant={plant}></PlantsCard>
