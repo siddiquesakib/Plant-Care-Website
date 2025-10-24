@@ -9,7 +9,6 @@ const Navbar = () => {
   const { user, logOut } = use(AuthContext);
 
   const handleLogOut = () => {
-    // console.log("user trying to LogOut");
     logOut()
       .then(() => {
         toast("You Logged Out successfully");
@@ -65,29 +64,54 @@ const Navbar = () => {
             Plant Care
           </Link>
         </div>
+
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navlink}</ul>
         </div>
+
         <div className="navbar-end gap-2">
-          {
-            <img
-              className="w-8 rounded-full"
-              src={user ? user.photoURL : defaultIcon}
-              alt=""
-            />
-          }
           {user ? (
-            // Only show Logout when logged in
-            <button onClick={handleLogOut} className="btn hover:text-green-600 transition">
-              LogOut
-            </button>
+            <div className="dropdown dropdown-end">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost btn-circle avatar"
+              >
+                <div className="w-10 rounded-full">
+                  <img src={user.photoURL || defaultIcon} alt={user.displayName} />
+                </div>
+              </div>
+              <ul
+                tabIndex={0}
+                className="mt-3 z-[1000] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+              >
+                <Link to={}>
+                  <p className="font-semibold text-gray-700 text-center">
+                    {user.displayName || "User"}
+                  </p>
+                </Link>
+                <li>
+                  <button
+                    onClick={handleLogOut}
+                    className="btn btn-sm bg-red-500 text-white hover:bg-red-600 mt-2"
+                  >
+                    LogOut
+                  </button>
+                </li>
+              </ul>
+            </div>
           ) : (
-            // Show Login + Register when not logged in
             <>
-              <Link to="/auth/login" className= "btn hover:text-green-600 transition">
+              <Link
+                to="/auth/login"
+                className="btn hover:text-green-600 transition"
+              >
                 Login
               </Link>
-              <Link to="/auth/register" className="btn hover:text-green-600 transition">
+              <Link
+                to="/auth/register"
+                className="btn hover:text-green-600 transition"
+              >
                 Register
               </Link>
             </>
