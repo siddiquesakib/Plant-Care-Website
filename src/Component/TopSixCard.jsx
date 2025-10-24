@@ -10,7 +10,7 @@ const TopSixCard = ({ loadData }) => {
       {firstSix.map((plant) => (
         <div
           key={plant.plantId}
-          className="rounded-xl shadow-lg overflow-hidden bg-[#ffffff] hover:bg-[#f7edde] transition-colors duration-900"
+          className="rounded-xl shadow-lg overflow-hidden bg-[#ffffff] hover:bg-[#f7edde] transition transform duration-300 hover:scale-105"
         >
           <div className="w-full h-72 overflow-hidden">
             <img

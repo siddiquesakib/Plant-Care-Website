@@ -8,6 +8,7 @@ import Plants from "../Pages/Plants";
 import PlantDetails from "../Pages/plantDetails";
 import ErrorPage from "../Pages/ErrorPage";
 import PrivateRoute from "../Context/PrivetRoute";
+import Profile from "../Pages/Profile";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,14 @@ export const router = createBrowserRouter([
       </PrivateRoute>
     ),
     loader: () => fetch("/plants.json"),
+  },
+  {
+    path: "/profile",
+    element: (
+      <PrivateRoute>
+        <Profile />
+      </PrivateRoute>
+    ),
   },
   {
     path: "/auth",

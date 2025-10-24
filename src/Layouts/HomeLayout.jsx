@@ -14,15 +14,12 @@ const HomeLayout = () => {
   const loadData = useLoaderData();
 
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 800);
-
     return () => clearTimeout(timer);
   }, []);
-
   if (loading) {
     return <Loading />;
   }

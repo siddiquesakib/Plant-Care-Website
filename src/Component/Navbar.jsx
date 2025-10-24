@@ -27,7 +27,7 @@ const Navbar = () => {
         <MyNavLink to="/plants">Plants</MyNavLink>
       </li>
       <li>
-        <MyNavLink to="/myprofile">My Profile</MyNavLink>
+        <MyNavLink to="/profile">My Profile</MyNavLink>
       </li>
     </>
   );
@@ -78,15 +78,18 @@ const Navbar = () => {
                 className="btn btn-ghost btn-circle avatar"
               >
                 <div className="w-10 rounded-full">
-                  <img src={user.photoURL || defaultIcon} alt={user.displayName} />
+                  <img
+                    src={user.photoURL || defaultIcon}
+                    alt={user.displayName}
+                  />
                 </div>
               </div>
               <ul
                 tabIndex={0}
                 className="mt-3 z-[1000] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
               >
-                <Link to={}>
-                  <p className="font-semibold text-gray-700 text-center">
+                <Link to={"/profile"}>
+                  <p className="font-semibold text-gray-700 text-center hover:text-green-600  transition">
                     {user.displayName || "User"}
                   </p>
                 </Link>

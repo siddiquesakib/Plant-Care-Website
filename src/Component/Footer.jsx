@@ -35,7 +35,7 @@ function FooterComponent() {
         </Link>
       </li>
       <li className="hover:text-white">
-        <Link className="flex gap-1.5" to={"./myprofile"}>
+        <Link className="flex gap-1.5" to={"./profile"}>
           <FaPinterest size={20} /> Pinterest
         </Link>
       </li>
