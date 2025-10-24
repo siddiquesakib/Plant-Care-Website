@@ -13,7 +13,7 @@ const ErrorPage = () => {
           Page Not Found
         </h2>
         <p className="text-gray-500 mb-6">
-          Sorry, the page you’re looking for doesn’t exist.
+          Sorry, the page you're looking for doesn't exist.
         </p>
         <Link
           to="/"

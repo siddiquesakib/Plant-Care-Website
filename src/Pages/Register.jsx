@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import { Leaf } from "lucide-react";
 import { Link, useNavigate } from "react-router";
-import {
-  createUserWithEmailAndPassword,
-  GoogleAuthProvider,
-  signInWithPopup,
-} from "firebase/auth";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { auth } from "../firebase/firebase.config";
 import { toast } from "react-toastify";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
+import { AuthContext } from "../Context/AuthProvider";
+import Loading from "./Loading";
 
 const googleProvider = new GoogleAuthProvider();
 const Register = () => {
+  const { createUser, updateUser } = use(AuthContext);
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
 
@@ -20,7 +19,8 @@ const Register = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(email, password, name);
+    const photo = e.target.photo.value;
+    // console.log(email, password, name);
 
     const passCheck = /^(?=.*[A-Z])(?=.*[a-z]).{6,}$/;
     if (!passCheck.test(password)) {
@@ -30,14 +30,18 @@ const Register = () => {
       return;
     }
 
-    createUserWithEmailAndPassword(auth, email, password)
+    createUser(email, password)
       .then(() => {
-        toast.success("registered");
+        return updateUser({ displayName: name, photoURL: photo });
+      })
+      .then(() => {
+        toast.success("Registration successful!");
         navigate("/");
       })
       .catch((error) => {
         const errorMessage = error.message;
-        toast(errorMessage);
+        toast.error(errorMessage);
+        console.log(error);
       });
   };
 
@@ -52,6 +56,20 @@ const Register = () => {
         toast(errorMessage);
       });
   };
+
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 800);
+  
+      return () => clearTimeout(timer);
+    }, []);
+  
+    if (loading) {
+      return <Loading />;
+    }
 
   return (
     <div className="min-h-screen bg-[#f7f6f1]">

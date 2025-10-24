@@ -7,6 +7,7 @@ import AuthLayout from "../Layouts/AuthLayout";
 import Plants from "../Pages/Plants";
 import PlantDetails from "../Pages/plantDetails";
 import ErrorPage from "../Pages/ErrorPage";
+import PrivateRoute from "../Context/PrivetRoute";
 
 export const router = createBrowserRouter([
   {
@@ -21,7 +22,11 @@ export const router = createBrowserRouter([
   },
   {
     path: "/plant-details/:id",
-    Component: PlantDetails,
+    element: (
+      <PrivateRoute>
+        <PlantDetails />
+      </PrivateRoute>
+    ),
     loader: () => fetch("/plants.json"),
   },
   {

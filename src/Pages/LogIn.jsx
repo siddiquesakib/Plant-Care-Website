@@ -1,50 +1,62 @@
-import React, { useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
-import {
-  GoogleAuthProvider,
-  signInWithEmailAndPassword,
-  signInWithPopup,
-} from "firebase/auth";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { auth } from "../firebase/firebase.config";
 import { toast } from "react-toastify";
+import { AuthContext } from "../Context/AuthProvider";
+import Loading from "./Loading";
 
 const googleProvider = new GoogleAuthProvider();
 
 const LogIn = () => {
+  const { signIn } = use(AuthContext);
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state || "/";
 
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 800);
+  
+      return () => clearTimeout(timer);
+    }, []);
+  
+    if (loading) {
+      return <Loading />;
+    }
+
   const handleLogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
     const password = e.target.password.value;
-    console.log(email, password);
 
-    signInWithEmailAndPassword(auth, email, password)
+    signIn(email, password)
       .then((res) => {
-        console.log(res);
-        toast.success("registered");
+        toast.success(`Welcome ${res.user.displayName || "back"}!`);
         navigate(from);
       })
       .catch((error) => {
         console.log(error);
         const errorMessage = error.message;
-        toast(errorMessage);
+        toast.error(errorMessage);
       });
   };
 
   const handleGoogle = () => {
     signInWithPopup(auth, googleProvider)
-      .then(() => {
-        toast.success("registered");
+      .then((res) => {
+        toast.success(`Welcome ${res.user.displayName}!`);
         navigate("/");
       })
       .catch((error) => {
         const errorMessage = error.message;
-        toast(errorMessage);
+        toast.error(errorMessage);
+        console.log(errorMessage);
       });
   };
 

@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import { useLoaderData } from "react-router";
 import PlantsCard from "../Component/PlantsCard";
+import Loading from "./Loading";
 
 const Plants = () => {
   const data = useLoaderData();
-  console.log(data);
+  // console.log(data);
+
+
+  const [loading, setLoading] = useState(true);
+  
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 800);
+  
+      return () => clearTimeout(timer);
+    }, []);
+  
+    if (loading) {
+      return <Loading />;
+    }
+
+
   return (
     <div>
       <Navbar />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Component/Navbar";
 import { Link, Outlet, useLoaderData } from "react-router";
 import Footer from "../Component/Footer";
@@ -8,9 +8,24 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Tips from "../Component/Tips";
 import Team from "../Component/Team";
 import Review from "../Component/Review";
+import Loading from "../Pages/Loading";
 
 const HomeLayout = () => {
   const loadData = useLoaderData();
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 800);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <div>
