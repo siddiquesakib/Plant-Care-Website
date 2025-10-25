@@ -18,7 +18,7 @@ function FooterComponent() {
         <Link to={"/plants"}>Plants</Link>
       </li>
       <li className="hover:text-white">
-        <Link to={"/about"}>About</Link>
+        <Link to={"/about"}>About Us</Link>
       </li>
       <li className="hover:text-white">
         <Link to={"/auth/login"}>Login</Link>

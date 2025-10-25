@@ -1,6 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -29,12 +35,16 @@ const HeroSection = () => {
 
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={100}
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+      spaceBetween={30}
       slidesPerView={1}
-      navigation
+      loop={true}
+      navigation={true}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
     >
       {slides.map((slide, id) => (
         <SwiperSlide key={id}>

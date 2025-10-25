@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { toast } from "react-toastify";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
 import { AuthContext } from "../Context/AuthProvider";
@@ -9,6 +9,7 @@ const Register = () => {
   const { createUser, updateUser, googleLogin } = use(AuthContext);
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
   const from = location.state || "/";
 
   const handleRegister = (e) => {
@@ -43,13 +44,13 @@ const Register = () => {
 
   const handleGoogle = () => {
     googleLogin()
-      .then(() => {
-        toast.success(`Welcome ${name}!`);
+      .then((res) => {
+        toast.success(`Welcome ${res.user.displayName}!`);
         navigate(from);
       })
       .catch((error) => {
         const errorMessage = error.message;
-        toast(errorMessage);
+        toast.error(errorMessage);
       });
   };
 
@@ -201,6 +202,7 @@ const Register = () => {
                 Already have an account?{" "}
                 <Link
                   to={"/auth/login"}
+                  state={from}
                   className="text-[#2a7d2e] hover:text-[#194B1B] font-medium"
                 >
                   Login here
