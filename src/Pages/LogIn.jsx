@@ -102,14 +102,15 @@ const LogIn = () => {
                 <Link
                   to={"https://gmail.com/"}
                   target="_blank"
-                  className="text-sm text-green-600 hover:text-green-700 font-medium"
+                  className="text-sm text-[#2a7d2e] hover:text-[#194B1B] font-medium"
                 >
                   Forget Password?
                 </Link>
               </div>
               <button
+                type="button"
                 onClick={handleGoogle}
-                className="btn bg-white w-full text-black border-[#e5e5e5]"
+                className="btn bg-white w-full text-black border-[#e5e5e5] hover:bg-[#C5C7BC] "
               >
                 <svg
                   aria-label="Google logo"
@@ -152,7 +153,7 @@ const LogIn = () => {
                 Don't have an account?{" "}
                 <Link
                   to={"/auth/register"}
-                  className="text-green-600 hover:text-green-700 font-medium"
+                  className="text-[#2a7d2e] hover:text-[#194B1B]  font-medium"
                 >
                   Register here
                 </Link>

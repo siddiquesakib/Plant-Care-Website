@@ -92,7 +92,7 @@ const Navbar = () => {
                 className="mt-3 z-[1000] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
               >
                 <Link to={"/profile"}>
-                  <p className="btn btn-sm w-full font-semibold text-gray-700 text-center hover:text-gray-900 transition">
+                  <p className="btn btn-sm w-full font-semibold text-gray-700 text-center hover:text-gray-900 transition ">
                     {user.displayName || "User"}
                   </p>
                 </Link>
@@ -110,13 +110,13 @@ const Navbar = () => {
             <>
               <Link
                 to="/auth/login"
-                className="btn hover:text-green-600 transition"
+                className="border border-black cursor-pointer px-4 py-1 rounded-lg hover:bg-[#2a7d2e] hover:text-white hover:border-[#2a7d2e] text-center font-semibold transition-colors duration-500 "
               >
                 Login
               </Link>
               <Link
                 to="/auth/register"
-                className="btn hover:text-green-600 transition"
+                className="border border-black cursor-pointer px-4 py-1 rounded-lg hover:bg-[#2a7d2e] hover:text-white hover:border-[#2a7d2e] text-center font-semibold transition-colors duration-500 "
               >
                 Register
               </Link>

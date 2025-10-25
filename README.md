@@ -1,16 +1,54 @@
-# React + Vite
+# # 🌿 Plant Care Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant single-page web application for plant lovers to explore plant care guides, buy plants, and book expert consultations.
 
-Currently, two official plugins are available:
+**Live Site:** https://plant-care-d3d4f.web.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 Firebase Authentication (Email/Password & Google Sign-In)
+- 🌱 15+ Indoor Plants with complete details
+- 🔒 Protected Routes for authenticated users
+- 👤 Profile Management with real-time updates
+- 📱 Fully Responsive Design
+- 🎨 Swiper.js Sliders & Smooth Animations
+- � Plant Care Tips & Expert Team Section
+- ⭐ Customer Reviews Carousel
+- 🔔 Toast Notifications for user feedback
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies
+
+- **React** + **Vite**
+- **Firebase** (Authentication & Hosting)
+- **Tailwind CSS** + **DaisyUI**
+- **React Router** + **Swiper.js**
+- **React Toastify** + **React Icons**
+
+---
+
+## 🔑 Key Functionalities
+
+### Authentication
+
+- Email/Password registration with validation (uppercase, lowercase, 6+ chars)
+- Google Sign-In integration
+- Password show/hide toggle
+- Forgot Password functionality
+- Protected routes with redirect after login
+
+### Plant Management
+
+- Browse 15+ indoor plants
+- View detailed plant information
+- Book consultation (protected page)
+- Top-rated plants section
+
+### User Profile
+
+- View and update profile (name, photo)
+
+---

@@ -31,7 +31,7 @@ const Register = () => {
         return updateUser({ displayName: name, photoURL: photo });
       })
       .then(() => {
-        toast.success("Registration successful!");
+        toast.success(`Welcome ${name}!`);
         navigate(from);
       })
       .catch((err) => {
@@ -44,7 +44,7 @@ const Register = () => {
   const handleGoogle = () => {
     googleLogin()
       .then(() => {
-        toast.success("registered");
+        toast.success(`Welcome ${name}!`);
         navigate(from);
       })
       .catch((error) => {
@@ -146,18 +146,19 @@ const Register = () => {
                 />
                 <label className="ml-2 text-sm text-gray-600">
                   I agree to the{" "}
-                  <Link className="text-green-600 hover:text-green-700 font-medium">
+                  <Link className="text-[#2a7d2e] hover:text-[#194B1B] font-medium">
                     Terms & Conditions
                   </Link>{" "}
                   and{" "}
-                  <Link className="text-green-600 hover:text-green-700 font-medium">
+                  <Link className="text-[#2a7d2e] hover:text-[#194B1B]  font-medium">
                     Privacy Policy
                   </Link>
                 </label>
               </div>
               <button
+                type="button"
                 onClick={handleGoogle}
-                className="btn bg-white w-full text-black border-[#e5e5e5]"
+                className="btn bg-white w-full text-black border-[#e5e5e5] hover:bg-[#C5C7BC]"
               >
                 <svg
                   aria-label="Google logo"
@@ -200,7 +201,7 @@ const Register = () => {
                 Already have an account?{" "}
                 <Link
                   to={"/auth/login"}
-                  className="text-green-600 hover:text-green-700 font-medium"
+                  className="text-[#2a7d2e] hover:text-[#194B1B] font-medium"
                 >
                   Login here
                 </Link>

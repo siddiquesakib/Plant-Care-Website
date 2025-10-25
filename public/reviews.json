@@ -10,7 +10,7 @@
   {
     "id": 2,
     "review": "I was struggling to keep my indoor plants alive, but their expertise completely changed that. The instructions they provided were not only clear but also easy to implement, and I started seeing improvements almost immediately. They answered all my questions patiently and gave tips that I would have never thought of on my own. My apartment now feels alive with thriving greenery, and I feel confident taking care of my plants.",
-    "name": "David T.",
+    "name": "Kristin Watson",
     "location": "New York",
     "rating": 4,
     "img": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c57a36a386d315450ffb54_review-thumb-07.jpg"
@@ -21,7 +21,7 @@
     "name": "Emily R.",
     "location": "Florida",
     "rating": 5,
-    "img": "https://randomuser.me/api/portraits/women/68.jpg"
+    "img": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c57a353a981fc2da47396c_review-thumb-04.jpg"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "name": "Michael B.",
     "location": "Texas",
     "rating": 4,
-    "img": "https://randomuser.me/api/portraits/men/76.jpg"
+    "img": "https://cdn.prod.website-files.com/664f2b2b33b6731b7dfb169b/66c57a39013f258241cd3fed_review-thumb-03.jpg"
   }
 ]
