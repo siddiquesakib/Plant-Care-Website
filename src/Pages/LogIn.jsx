@@ -1,16 +1,12 @@
 import React, { use, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { auth } from "../firebase/firebase.config";
 import { toast } from "react-toastify";
 import { AuthContext } from "../Context/AuthProvider";
 import Loading from "./Loading";
 
-const googleProvider = new GoogleAuthProvider();
-
 const LogIn = () => {
-  const { signIn } = use(AuthContext);
+  const { signIn, googleLogin } = use(AuthContext);
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
@@ -48,10 +44,10 @@ const LogIn = () => {
   };
 
   const handleGoogle = () => {
-    signInWithPopup(auth, googleProvider)
+    googleLogin()
       .then((res) => {
         toast.success(`Welcome ${res.user.displayName}!`);
-        navigate("/");
+        navigate(from);
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -105,7 +101,11 @@ const LogIn = () => {
               </div>
 
               <div className="text-right">
-                <Link className="text-sm text-green-600 hover:text-green-700 font-medium">
+                <Link
+                  to={"https://gmail.com/"}
+                  target="_blank"
+                  className="text-sm text-green-600 hover:text-green-700 font-medium"
+                >
                   Forget Password?
                 </Link>
               </div>

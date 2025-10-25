@@ -9,12 +9,17 @@ import PlantDetails from "../Pages/plantDetails";
 import ErrorPage from "../Pages/ErrorPage";
 import PrivateRoute from "../Context/PrivetRoute";
 import Profile from "../Pages/Profile";
+import Home from "../Pages/Home";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: HomeLayout,
     loader: () => fetch("/plants.json"),
+  },
+  {
+    path: "/home",
+    Component: Home,
   },
   {
     path: "/plants",

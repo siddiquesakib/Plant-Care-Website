@@ -1,18 +1,15 @@
 import React, { use, useEffect, useState } from "react";
-import { Leaf } from "lucide-react";
 import { Link, useNavigate } from "react-router";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { auth } from "../firebase/firebase.config";
 import { toast } from "react-toastify";
 import { VscEye, VscEyeClosed } from "react-icons/vsc";
 import { AuthContext } from "../Context/AuthProvider";
 import Loading from "./Loading";
 
-const googleProvider = new GoogleAuthProvider();
 const Register = () => {
-  const { createUser, updateUser } = use(AuthContext);
+  const { createUser, updateUser, googleLogin } = use(AuthContext);
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
+  const from = location.state || "/";
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -36,7 +33,7 @@ const Register = () => {
       })
       .then(() => {
         toast.success("Registration successful!");
-        navigate("/");
+        navigate(from);
       })
       .catch((error) => {
         const errorMessage = error.message;
@@ -46,10 +43,10 @@ const Register = () => {
   };
 
   const handleGoogle = () => {
-    signInWithPopup(auth, googleProvider)
+    googleLogin()
       .then(() => {
         toast.success("registered");
-        navigate("/");
+        navigate(from);
       })
       .catch((error) => {
         const errorMessage = error.message;
