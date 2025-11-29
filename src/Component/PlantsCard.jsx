@@ -7,25 +7,27 @@ const PlantsCard = ({ plant }) => {
   return (
     <div>
       <title>Plant-Care | All Plants</title>
-      <div className="rounded-xl shadow-lg overflow-hidden bg-[#ffffff] hover:bg-[#f7edde] transition transform duration-300 hover:scale-105">
+      <div className="rounded-2xl shadow-xl overflow-hidden bg-white hover:shadow-2xl hover:shadow-green-100 transition-all transform duration-500 hover:-translate-y-2 border border-gray-100 group">
         <div className="w-full h-72 overflow-hidden">
           <img
             src={image}
             alt={plantName}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           />
         </div>
-        <div className="p-4 flex flex-col gap-2">
-          <h2 className="font-semibold text-lg">{plantName}</h2>
+        <div className="p-5 flex flex-col gap-3 bg-linear-to-b from-white to-green-50/30">
+          <h2 className="font-bold text-xl text-gray-800 group-hover:text-green-700 transition-colors">
+            {plantName}
+          </h2>
           <div className="flex justify-between items-center">
-            <p className="text-black font-semibold">${price}</p>
-            <p className="text-black flex justify-center items-center gap-1">
-              <IoIosStarOutline /> {rating}
+            <p className="text-green-600 font-bold text-lg">${price}</p>
+            <p className="text-amber-500 flex justify-center items-center gap-1 font-semibold">
+              <IoIosStarOutline className="text-amber-400" /> {rating}
             </p>
           </div>
           <Link
             to={`/plant-details/${plantId}`}
-            className="mt-3 cursor-pointer bg-[#2a7d2e] text-white px-4 py-2 rounded-lg hover:bg-[#222e1f] transition-colors duration-900 text-center "
+            className="mt-2 cursor-pointer bg-linear-to-r from-green-600 to-emerald-500 text-white px-5 py-3 rounded-xl hover:from-green-700 hover:to-emerald-600 transition-all duration-300 text-center font-semibold shadow-md hover:shadow-lg transform hover:scale-105"
           >
             View Details
           </Link>

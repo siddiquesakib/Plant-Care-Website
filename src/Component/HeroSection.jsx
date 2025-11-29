@@ -48,15 +48,19 @@ const HeroSection = () => {
     >
       {slides.map((slide, id) => (
         <SwiperSlide key={id}>
-          <div className="relative w-full h-[600px]">
+          <div className="relative w-full h-[600px] group">
             <img
               src={slide.img}
               alt={slide.title}
-              className="w-full h-full object-cover "
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white text-center">
-              <h2 className="text-3xl font-bold mb-2">{slide.title}</h2>
-              <p className="text-lg">{slide.subtitle}</p>
+            <div className="absolute inset-0 bg-linear-to-b from-black/30 via-black/40 to-black/60 flex flex-col items-center justify-center text-white text-center px-4">
+              <h2 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-up drop-shadow-2xl">
+                {slide.title}
+              </h2>
+              <p className="text-xl md:text-2xl font-light tracking-wide drop-shadow-lg">
+                {slide.subtitle}
+              </p>
             </div>
           </div>
         </SwiperSlide>

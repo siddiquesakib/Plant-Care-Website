@@ -17,20 +17,22 @@ const Team = () => {
           {experts.map((expert) => (
             <div
               key={expert.id}
-              className="bg-[#ffffff] hover:bg-[#f7edde]  rounded-lg shadow-lg p-6 flex flex-col items-center transform transition duration-300 hover:scale-105"
+              className="bg-white hover:bg-linear-to-br hover:from-green-50 hover:to-emerald-50 rounded-2xl shadow-xl p-8 flex flex-col items-center transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-green-100 border border-gray-100 group"
             >
               <img
-                className="w-32 h-32 rounded-full object-cover mb-4 "
+                className="w-32 h-32 rounded-full object-cover mb-5 ring-4 ring-green-100 group-hover:ring-green-300 transition-all shadow-lg"
                 src={expert.image}
                 alt={expert.name}
               />
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2 group-hover:text-green-700 transition-colors">
                 {expert.name}
               </h3>
-              <p className="text-green-700 font-medium mb-3">
+              <p className="text-green-600 font-semibold mb-4 text-sm uppercase tracking-wider">
                 {expert.specialization}
               </p>
-              <p className="text-gray-500 text-center text-sm">{expert.bio}</p>
+              <p className="text-gray-600 text-center text-sm leading-relaxed">
+                {expert.bio}
+              </p>
             </div>
           ))}
         </div>

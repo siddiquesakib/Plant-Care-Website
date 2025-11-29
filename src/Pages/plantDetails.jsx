@@ -23,7 +23,7 @@ const PlantDetails = () => {
   return (
     <div>
       <Navbar />
-      <div className="bg-[#f7f6f1] py-15 ">
+      <div className="bg-linear-to-b from-green-50/50 via-white to-emerald-50/30 py-15 min-h-screen">
         {detail ? (
           <PlantsDetailsCard detail={detail} />
         ) : (

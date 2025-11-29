@@ -22,59 +22,59 @@ const PlantsDetailsCard = ({ detail }) => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-[#f8f9f6] to-[#ffffff] min-h-screen pb-16">
-      <div className="max-w-6xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col md:flex-row items-center md:items-start md:gap-10 mx-2 p-6 md:p-12 mt-10">
+    <div className="bg-linear-to-b from-green-50/50 via-white to-emerald-50/30 min-h-screen pb-20">
+      <div className="max-w-6xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden flex flex-col md:flex-row items-center md:items-start md:gap-12 mx-2 p-8 md:p-14 mt-10 border border-gray-100 hover:shadow-green-100 transition-shadow duration-500">
         <div className="md:w-1/2 w-full">
           <img
             src={image}
             alt={plantName}
-            className="rounded-2xl w-full object-cover h-80 md:h-[480px] transition-transform duration-500 hover:scale-105"
+            className="rounded-3xl w-full object-cover h-80 md:h-[500px] transition-transform duration-700 hover:scale-105 shadow-2xl border-4 border-white"
           />
         </div>
-        <div className="md:w-1/2 w-full mt-8 md:mt-0 space-y-4">
-          <h1 className="text-4xl font-extrabold text-[#2a7d2e] mb-3 leading-tight">
+        <div className="md:w-1/2 w-full mt-8 md:mt-0 space-y-5">
+          <h1 className="text-5xl font-extrabold bg-linear-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent mb-4 leading-tight">
             {plantName}
           </h1>
-          <p className="text-gray-700 text-base leading-relaxed mb-5">
+          <p className="text-gray-700 text-lg leading-relaxed mb-6 bg-green-50/50 p-4 rounded-2xl">
             {description}
           </p>
-          <div className="space-y-2 text-gray-800">
-            <p>
-              <span className="font-semibold text-gray-900">Category:</span>{" "}
+          <div className="space-y-3 text-gray-800">
+            <p className="bg-linear-to-r from-green-50 to-emerald-50 p-4 rounded-xl border-l-4 border-green-500">
+              <span className="font-bold text-green-700">🌿 Category:</span>{" "}
               {category}
             </p>
-            <p>
-              <span className="font-semibold text-gray-900">Price:</span>{" "}
-              <span className="text-green-600 font-bold">${price}</span>
+            <p className="bg-linear-to-r from-green-50 to-emerald-50 p-4 rounded-xl border-l-4 border-green-500">
+              <span className="font-bold text-green-700">💰 Price:</span>{" "}
+              <span className="text-green-600 font-bold text-xl">${price}</span>
             </p>
-            <p>
-              <span className="font-semibold text-gray-900">Price:</span>{" "}
-              <span className="text-black font-bold">{rating}</span>
+            <p className="bg-linear-to-r from-green-50 to-emerald-50 p-4 rounded-xl border-l-4 border-green-500">
+              <span className="font-bold text-green-700">⭐ Rating:</span>{" "}
+              <span className="text-amber-500 font-bold text-xl">{rating}</span>
             </p>
-            <p>
-              <span className="font-semibold text-gray-900">
-                Available Stock:
-              </span>
+            <p className="bg-linear-to-r from-green-50 to-emerald-50 p-4 rounded-xl border-l-4 border-green-500">
+              <span className="font-bold text-green-700">
+                📦 Available Stock:
+              </span>{" "}
               {availableStock}
             </p>
-            <p>
-              <span className="font-semibold text-gray-900">Care Level:</span>{" "}
+            <p className="bg-linear-to-r from-green-50 to-emerald-50 p-4 rounded-xl border-l-4 border-green-500">
+              <span className="font-bold text-green-700">🌱 Care Level:</span>{" "}
               {careLevel}
             </p>
-            <p>
-              <span className="font-semibold text-gray-900">Provider:</span>{" "}
+            <p className="bg-linear-to-r from-green-50 to-emerald-50 p-4 rounded-xl border-l-4 border-green-500">
+              <span className="font-bold text-green-700">👤 Provider:</span>{" "}
               {providerName}
             </p>
           </div>
         </div>
       </div>
       <div className="mt-20 max-w-2xl mx-auto p-6 md:p-10">
-        <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-10 border-t-4 border-[#2a7d2e]">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-[#2a7d2e] mb-2">
+        <div className="bg-white rounded-3xl shadow-2xl p-10 md:p-12 border-t-4 border-green-500 hover:shadow-green-100 transition-shadow duration-500">
+          <div className="text-center mb-10">
+            <h2 className="text-4xl font-bold bg-linear-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent mb-3">
               Book a Consultation
             </h2>
-            <p className="text-gray-600 text-sm">
+            <p className="text-gray-600 text-base">
               Get personalized advice on caring for your {plantName}.
             </p>
           </div>
@@ -103,7 +103,7 @@ const PlantsDetailsCard = ({ detail }) => {
             </div>
             <button
               type="submit"
-              className="w-full cursor-pointer bg-[#2a7d2e] text-white px-4 py-2 rounded-lg hover:bg-[#222e1f] transition-colors duration-900 text-center"
+              className="w-full cursor-pointer bg-linear-to-r from-green-600 to-emerald-500 text-white px-6 py-4 rounded-xl hover:from-green-700 hover:to-emerald-600 transition-all duration-300 text-center font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               Book Now
             </button>

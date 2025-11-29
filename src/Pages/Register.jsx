@@ -69,20 +69,20 @@ const Register = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[#f7f6f1]">
+    <div className="min-h-screen bg-linear-to-br from-green-50 via-white to-emerald-50/50">
       <title>Plant-Care | Register</title>
       <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">
+            <h2 className="text-4xl font-bold bg-linear-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent mb-3">
               Register Now!
             </h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-lg">
               Join Plant Care and start your plant journey
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-[#2a7d2e]">
+          <div className="bg-white rounded-3xl shadow-2xl p-10 border-t-4 border-green-500 hover:shadow-green-100 transition-shadow duration-500">
             <form onSubmit={handleRegister} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -147,11 +147,11 @@ const Register = () => {
                 />
                 <label className="ml-2 text-sm text-gray-600">
                   I agree to the{" "}
-                  <Link className="text-[#2a7d2e] hover:text-[#194B1B] font-medium">
+                  <Link className="text-green-600 hover:text-green-700 font-semibold hover:underline">
                     Terms & Conditions
                   </Link>{" "}
                   and{" "}
-                  <Link className="text-[#2a7d2e] hover:text-[#194B1B]  font-medium">
+                  <Link className="text-green-600 hover:text-green-700 font-semibold hover:underline">
                     Privacy Policy
                   </Link>
                 </label>
@@ -159,7 +159,7 @@ const Register = () => {
               <button
                 type="button"
                 onClick={handleGoogle}
-                className="btn bg-white w-full text-black border-[#e5e5e5] hover:bg-[#C5C7BC]"
+                className="btn bg-white w-full text-gray-700 font-semibold border-2 border-gray-200 hover:bg-gray-50 hover:border-green-300 transition-all shadow-md hover:shadow-lg"
               >
                 <svg
                   aria-label="Google logo"
@@ -193,7 +193,7 @@ const Register = () => {
 
               <button
                 type="submit"
-                className="w-full cursor-pointer bg-[#2a7d2e] text-white px-4 py-2 rounded-lg hover:bg-[#222e1f] transition-colors duration-900 text-center"
+                className="w-full cursor-pointer bg-linear-to-r from-green-600 to-emerald-500 text-white px-5 py-3 rounded-xl hover:from-green-700 hover:to-emerald-600 transition-all duration-300 text-center font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 Register
               </button>
@@ -203,7 +203,7 @@ const Register = () => {
                 <Link
                   to={"/auth/login"}
                   state={from}
-                  className="text-[#2a7d2e] hover:text-[#194B1B] font-medium"
+                  className="text-green-600 hover:text-green-700 font-bold hover:underline"
                 >
                   Login here
                 </Link>

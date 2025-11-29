@@ -15,12 +15,12 @@ const ReviewCarousel = () => {
   }, []);
 
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-[#f5f5f5] relative">
+    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-green-50/30 via-white to-green-50/50 relative rounded-2xl my-6">
       <div className="absolute top-1/2 -translate-y-1/2 left-2 z-10">
-        <button className="swiper-button-prev !text-green-700 !w-10 !h-10 !bg-white !rounded-full shadow-md"></button>
+        <button className="swiper-button-prev !text-green-700 !w-12 !h-12 !bg-white !rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all"></button>
       </div>
       <div className="absolute top-1/2 -translate-y-1/2 right-2 z-10">
-        <button className="swiper-button-next !text-green-700 !w-10 !h-10 !bg-white !rounded-full shadow-md"></button>
+        <button className="swiper-button-next !text-green-700 !w-12 !h-12 !bg-white !rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all"></button>
       </div>
 
       <Swiper
@@ -41,23 +41,26 @@ const ReviewCarousel = () => {
       >
         {reviews.map((review) => (
           <SwiperSlide key={review.id}>
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-green-100 border border-gray-100">
               <div className="relative">
                 <img
                   src={review.img}
                   alt={review.name}
                   className="w-full h-64 object-cover"
                 />
-                <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3">
-                  <h3 className="text-white text-lg font-semibold">
+                <div className="absolute bottom-0 left-0 w-full bg-linear-to-t from-black/80 via-black/50 to-transparent p-4">
+                  <h3 className="text-white text-xl font-bold drop-shadow-lg">
                     {review.name}
                   </h3>
                 </div>
               </div>
-              <div className="p-4 text-left">
-                <p className="text-gray-600 font-medium mb-3">{`"${review.review}"`}</p>
-                <p className="text-black text-sm mb-2">{review.location}</p>
-                <p className="text-yellow-500 font-semibold">
+              <div className="p-6 text-left bg-linear-to-b from-white to-green-50/20">
+                <p className="text-gray-700 font-medium mb-4 italic leading-relaxed">{`"${review.review}"`}</p>
+                <p className="text-gray-600 text-sm mb-3 flex items-center gap-2">
+                  <span className="text-green-600">📍</span>
+                  {review.location}
+                </p>
+                <p className="text-yellow-500 font-bold text-lg">
                   {"★".repeat(review.rating)}
                   {"☆".repeat(5 - review.rating)}
                 </p>
