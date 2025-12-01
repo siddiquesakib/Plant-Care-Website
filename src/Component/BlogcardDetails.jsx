@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams, useNavigate } from "react-router";
+import { useLoaderData, useParams, useNavigate, Link } from "react-router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { FaFacebook, FaGithub, FaLinkedin, FaPinterest } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 
 const BlogcardDetails = () => {
   const data = useLoaderData();
@@ -26,7 +29,20 @@ const BlogcardDetails = () => {
     );
   }
 
-  const { title, content, author, date, image } = blog;
+  const {
+    title,
+    content1,
+    content2,
+    content3,
+    content4,
+    content5,
+    content6,
+    content7,
+    content8,
+    author,
+    date,
+    image,
+  } = blog;
   // Format date
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
     year: "numeric",
@@ -74,11 +90,32 @@ const BlogcardDetails = () => {
 
             {/* Blog Content */}
             <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
-              {content}
+              {content1}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content2}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content3}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content4}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content5}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content6}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content7}
+            </div>
+            <div className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
+              {content8}
             </div>
 
             {/* Back Button */}
-            <div className="mt-12 pt-8 border-t border-gray-200">
+            <div className="mt-12 pt-8 border-t border-gray-200 flex justify-between">
               <button
                 onClick={() => navigate("/blogs")}
                 className="bg-gradient-to-r from-green-600 to-emerald-500 text-white px-8 py-3 rounded-xl hover:from-green-700 hover:to-emerald-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2"
@@ -98,6 +135,29 @@ const BlogcardDetails = () => {
                 </svg>
                 Back to Blogs
               </button>
+              <div className=" flex gap-4 items-center">
+                <h1>Share with</h1>
+                <Link
+                  className="hover:text-green-700 transition-colors "
+                  target="_blank"
+                  to={"https://www.facebook.com/"}
+                >
+                  <FaFacebook size={18} />
+                </Link>
+
+                <FaPinterest
+                  className="hover:text-green-700 transition-colors"
+                  size={18}
+                />
+
+                <Link
+                  className="hover:text-green-700 transition-colors "
+                  target="_blank"
+                  to={"https://x.com/"}
+                >
+                  <FaXTwitter size={18} />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
