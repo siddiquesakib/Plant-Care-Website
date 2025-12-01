@@ -48,7 +48,7 @@ function FooterComponent() {
         <Link
           className="flex gap-1.5"
           target="_blank"
-          to={"https://github.com/siddiquesakib/"}
+          to={"https://github.com/siddiquesakib/Plant-Care-Website"}
         >
           <FaGithub size={18} /> Github
         </Link>

@@ -1,16 +1,15 @@
 import { createBrowserRouter } from "react-router";
-
 import HomeLayout from "../Layouts/HomeLayout";
 import LogIn from "../Pages/LogIn";
 import Register from "../Pages/Register";
 import AuthLayout from "../Layouts/AuthLayout";
 import Plants from "../Pages/Plants";
-import PlantDetails from "../Pages/plantDetails";
 import ErrorPage from "../Pages/ErrorPage";
 import PrivateRoute from "../Context/PrivetRoute";
 import Profile from "../Pages/Profile";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
+import PlantDetails from "../Pages/PlantDetails";
 
 export const router = createBrowserRouter([
   {
@@ -33,11 +32,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/plant-details/:id",
-    element: (
-      <PrivateRoute>
-        <PlantDetails />
-      </PrivateRoute>
-    ),
+    element: <PlantDetails />,
     loader: () => fetch("/plants.json"),
   },
   {

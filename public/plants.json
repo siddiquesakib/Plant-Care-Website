@@ -7,9 +7,17 @@
     "rating": 4.8,
     "availableStock": 10,
     "careLevel": "Easy",
-    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "description": "A hardy plant and an excellent air purifier for indoor spaces.\nIt's very tolerant of neglect and thrives well in low light conditions.\nIts upright, sword-like leaves add a modern touch to any room.\nIt is one of the top plants recommended by NASA for removing toxins.\nRequires minimal watering, making it ideal for busy individuals.",
     "image": "https://d2fxn1d7fsdeeo.cloudfront.net/kentuckyliving.com/wp-content/uploads/2019/01/18153804/Unknown-1.jpeg",
-    "providerName": "UrbanGreen Studio"
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "30-40cm",
+    "petBabySafe": "Mildly toxic to pets (can cause mouth and stomach irritation if ingested).",
+    "nurseryPotSize": "12cm, 21cm",
+    "likes": {
+      "Light": "He prefers medium to bright indirect light, but can tolerate low light, making him very versatile.",
+      "Watering": "The Snake Plant is drought-tolerant. Only water him when the soil is completely dry, usually every 2-4 weeks. Overwatering is his biggest enemy.",
+      "Temperature": "He enjoys average room temperatures (18°C-35°C) and should be kept away from cold drafts."
+    }
   },
   {
     "plantId": 2,
@@ -19,9 +27,17 @@
     "rating": 4.9,
     "availableStock": 7,
     "careLevel": "Medium",
-    "description": "Iconic split leaves bringing a bold tropical feel to interiors.",
+    "description": "Known as the Swiss Cheese Plant for its iconic split and holey leaves.\nIt's a popular houseplant that brings a bold, tropical feel to interiors.\nIt can grow quite large, becoming a dramatic focal point in a room.\nNative to the tropical forests of Southern Mexico.\nIts unique foliage adds significant texture and style to any plant collection.",
     "image": "https://nurserynisarga.in/wp-content/uploads/2025/01/decore-img.webp",
-    "providerName": "Leaf & Co."
+    "providerName": "Leaf & Co.",
+    "plantHeight": "40-60cm",
+    "petBabySafe": "Toxic to pets (ingestion can cause irritation, burning, and swelling of the mouth, tongue, and throat).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "He thrives in bright to medium indirect sunlight. Direct sun can scorch his leaves, but too little light will prevent the iconic 'splits' from forming.",
+      "Watering": "Water him when the top 1-2 inches of soil feel dry. He appreciates consistently moist (but not soggy) soil, especially during the growing season.",
+      "Humidity": "As a tropical plant, he loves high humidity. Mist his leaves regularly or place him near a humidifier for optimal growth."
+    }
   },
   {
     "plantId": 3,
@@ -31,9 +47,17 @@
     "rating": 4.6,
     "availableStock": 12,
     "careLevel": "Easy",
-    "description": "Elegant white blooms and excellent air-cleaning properties.",
+    "description": "Features elegant white 'flowers' (actually modified leaves called spathes).\nKnown for its excellent air-cleaning properties and humidity preference.\nIt's a wonderful beginner plant as it dramatically droops when thirsty.\nProvides a calming, graceful presence to indoor spaces.\nThrives best in shaded or low-light conditions.",
     "image": "https://img.drz.lazcdn.com/static/bd/p/4c1f7d348834d1746ad94e4f5957f9d8.jpg_720x720q80.jpg",
-    "providerName": "BloomHouse"
+    "providerName": "BloomHouse",
+    "plantHeight": "30-50cm",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates which can cause oral irritation and vomiting if chewed or ingested).",
+    "nurseryPotSize": "12cm, 21cm",
+    "likes": {
+      "Light": "The Peace Lily prefers medium to low indirect light. Too much light can burn the leaves, while low light can inhibit flowering. An East-facing window is often perfect.",
+      "Watering": "He likes to stay consistently moist. Water him thoroughly when the top layer of soil is dry. He is famous for drooping when he needs a drink.",
+      "Temperature": "He thrives in warm, stable temperatures (18°C-29°C). Keep him away from cold drafts and air conditioning vents."
+    }
   },
   {
     "plantId": 4,
@@ -43,9 +67,17 @@
     "rating": 4.7,
     "availableStock": 15,
     "careLevel": "Easy",
-    "description": "Fast-growing vine with heart-shaped leaves, great for shelves.",
+    "description": "A very forgiving and adaptable houseplant, perfect for beginners.\nFeatures heart-shaped, glossy leaves often streaked with yellow (golden).\nExcellent for hanging planters, shelves, or letting it trail downwards.\nIt is known for its incredible air-purifying qualities.\nCan tolerate a wide range of lighting conditions.",
     "image": "https://www.gertens.com/media/catalog/product/cache/552aa5ee50ba4e27dfcb5fa3e4dca5ac/p/o/pothos-golden-6in_1.jpg",
-    "providerName": "UrbanGreen Studio"
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "20-30cm (trailing length varies)",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates, causing oral irritation and digestive upset if ingested).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He is happy in bright, indirect light, which encourages more yellow variegation. He can tolerate low light, but his growth will slow down and the leaves may become greener.",
+      "Watering": "The Golden Pothos likes to dry out between waterings. Water him when the top 2 inches of soil are dry. Overwatering is the most common issue.",
+      "Pruning": "Prune his vines regularly to encourage fuller growth near the base and to maintain your desired length and shape."
+    }
   },
   {
     "plantId": 5,
@@ -55,9 +87,17 @@
     "rating": 4.5,
     "availableStock": 9,
     "careLevel": "Easy",
-    "description": "Thrives on neglect, ideal for offices and low-light corners.",
+    "description": "Famous for its resilience and ability to thrive on neglect.\nFeatures waxy, deep-green leaves on thick, upright stems.\nIt is one of the best choices for offices or low-light corners.\nStores water in its rhizomes, making it extremely drought-tolerant.\nAn ideal, almost 'set-it-and-forget-it' houseplant.",
     "image": "https://www.ugaoo.com/cdn/shop/files/1_af764eda-b091-4320-953d-e4de57387c54.jpg?v=1741698812&width=3840",
-    "providerName": "Leaf & Co."
+    "providerName": "Leaf & Co.",
+    "plantHeight": "30-40cm",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates, ingestion can cause intense pain and irritation to the mouth and stomach).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He is highly adaptable and can survive in very low light, but he will grow faster and more robustly in bright, indirect light. Avoid direct, harsh sunlight.",
+      "Watering": "The ZZ Plant is extremely drought-tolerant. Only water him when the soil is completely dry, which can be every few weeks. He's more likely to die from overwatering than underwatering.",
+      "Soil": "He needs well-draining soil to prevent root rot, which is critical due to his water-storing rhizomes."
+    }
   },
   {
     "plantId": 6,
@@ -67,9 +107,17 @@
     "rating": 4.4,
     "availableStock": 20,
     "careLevel": "Easy",
-    "description": "Medicinal succulent that loves bright light and minimal water.",
+    "description": "A well-known medicinal plant with thick, fleshy, spiked leaves.\nIts clear gel is famous for soothing burns and minor skin irritations.\nAs a succulent, it requires minimal water and loves bright light.\nIt is a great plant for a sunny kitchen windowsill.\nVery easy to propagate from 'pups' (small offsets).",
     "image": "https://cdn.shopify.com/s/files/1/0691/8363/5772/files/Aloe_Vera_Plant1_1_600x600.jpg?v=1740762150",
-    "providerName": "Cactus Lane"
+    "providerName": "Cactus Lane",
+    "plantHeight": "20-30cm",
+    "petBabySafe": "Toxic to pets (the outer leaf rind contains saponins, a laxative that can cause vomiting and diarrhea if ingested, but the gel is not typically harmful).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He loves bright, direct sunlight. A south or west-facing window is ideal. Insufficient light will cause his leaves to grow thin and weak.",
+      "Watering": "Like most succulents, he is very sensitive to overwatering. Water him deeply but infrequently, only when the soil has completely dried out.",
+      "Temperature": "He prefers warmer temperatures (13°C-27°C) and must be protected from freezing temperatures."
+    }
   },
   {
     "plantId": 7,
@@ -79,9 +127,17 @@
     "rating": 4.3,
     "availableStock": 6,
     "careLevel": "Medium",
-    "description": "Large glossy leaves that make a statement in modern interiors.",
+    "description": "Known for its distinctive, very large, glossy, violin-shaped leaves.\nA highly fashionable indoor tree that makes a strong statement piece.\nIt requires specific, consistent care to truly thrive indoors.\nAdds height and drama to modern and minimalist interiors.\nCan be sensitive to changes in environment.",
     "image": "https://wellingtonfleur.ca/cdn/shop/files/FiddleLeafFig2048-WED_5073.jpg?v=1726337753",
-    "providerName": "Leaf & Co."
+    "providerName": "Leaf & Co.",
+    "plantHeight": "80-100cm",
+    "petBabySafe": "Mildly toxic to pets (can cause mild gastrointestinal upset and skin irritation due to insoluble calcium oxalates).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "He craves bright, filtered light. Place him right next to a bright window (east or south is best). Rotate him regularly to ensure even growth.",
+      "Watering": "Water him thoroughly until water runs out of the drainage holes. Allow the top few inches of soil to dry out between waterings. Avoid letting him sit in standing water.",
+      "Humidity": "He appreciates high humidity. Group him with other plants, mist him regularly, or use a pebble tray to keep his large leaves looking their best."
+    }
   },
   {
     "plantId": 8,
@@ -91,9 +147,17 @@
     "rating": 4.7,
     "availableStock": 18,
     "careLevel": "Easy",
-    "description": "Produces oxygen efficiently and grows baby offshoots easily.",
+    "description": "Features graceful, arching green and white striped leaves.\nExcellent air purifier and one of the easiest houseplants to care for.\nProduces 'spiderettes' or small baby plants on long stems.\nIdeal for hanging baskets where its babies can trail downwards.\nCan tolerate a variety of light conditions.",
     "image": "https://plantsocietyshop.com/cdn/shop/files/DSC_0121_66cc6d41-5972-4f5a-b0fc-42e5ec63d704_900x.jpg?v=1755800759",
-    "providerName": "BloomHouse"
+    "providerName": "BloomHouse",
+    "plantHeight": "20-30cm (trailing length varies)",
+    "petBabySafe": "Non-toxic to cats and dogs (considered one of the few truly safe houseplants, though the 'spiderettes' can be mildly hallucinogenic to cats).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He does best in bright to medium indirect light, which encourages vibrant leaf color and production of 'spiderettes.' Direct, hot sun can scorch his leaves.",
+      "Watering": "He likes to stay consistently moist but not soggy. Water him when the top inch of soil is dry. They are sensitive to fluoride and chlorine, which can cause brown tips.",
+      "Soil": "Use a standard, well-draining potting mix. Repot only when his roots begin to visibly crowd the pot."
+    }
   },
   {
     "plantId": 9,
@@ -103,9 +167,17 @@
     "rating": 4.5,
     "availableStock": 14,
     "careLevel": "Easy",
-    "description": "Symbol of good luck, stores water in its thick green leaves.",
+    "description": "A popular, slow-growing succulent with thick, oval, glossy leaves.\nOften referred to as a 'Money Plant' or 'Lucky Plant' in some cultures.\nIt can be pruned and trained to resemble a miniature tree (bonsai style).\nExtremely drought-tolerant due to water storage in its leaves.\nA long-lived plant that can be passed down through generations.",
     "image": "https://www.bhg.com/thmb/kTjA4BxwEU3QQcrYBn4kVTRzejA=/1245x0/filters:no_upscale():strip_icc()/jade-plant-moss-accent-table-c503ce13-9538bbfb99874b278a195fb5de4fee1a.jpg",
-    "providerName": "Cactus Lane"
+    "providerName": "Cactus Lane",
+    "plantHeight": "15-25cm",
+    "petBabySafe": "Toxic to pets (ingestion can cause vomiting, lethargy, and incoordination in cats and dogs).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He prefers at least four hours of bright, direct sunlight daily. Place him in a south-facing window for best results, which encourages compact, healthy growth.",
+      "Watering": "He is very susceptible to root rot, so only water him when the soil is completely dry to the touch, usually every 2-4 weeks. Reduce watering significantly in winter.",
+      "Temperature": "He likes moderate room temperatures (18°C-24°C) and can tolerate slightly cooler nights."
+    }
   },
   {
     "plantId": 10,
@@ -115,9 +187,17 @@
     "rating": 4.6,
     "availableStock": 8,
     "careLevel": "Medium",
-    "description": "Striking striped leaves that thrive in humidity and shade.",
+    "description": "Features large, round leaves with stunning, silvery-green stripes.\nA 'Prayer Plant' known for moving its leaves up and down throughout the day.\nBrings a lush, jungle feel to any room with its striking pattern.\nRequires a bit more attention to humidity and watering than other plants.\nNative to the tropical forests of Bolivia.",
     "image": "https://highlandmoss.com/wp-content/uploads/2023/07/calathea-orbifolia-plant-14cm-pot.webp",
-    "providerName": "Leaf & Co."
+    "providerName": "Leaf & Co.",
+    "plantHeight": "30-40cm",
+    "petBabySafe": "Non-toxic to cats and dogs (one of the safest and most beautiful choices for pet owners).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "She needs bright, indirect light to keep her leaf patterns vibrant, but no direct sun, which will scorch her leaves. She can tolerate medium shade.",
+      "Watering": "She is thirsty and prefers consistently moist soil. Water her when the top inch of soil is dry. Use filtered or distilled water to prevent brown leaf edges caused by tap water minerals.",
+      "Humidity": "High humidity is non-negotiable for the Calathea. Use a humidifier or place her in a bathroom to keep the edges of her leaves from becoming crispy."
+    }
   },
   {
     "plantId": 11,
@@ -127,9 +207,17 @@
     "rating": 4.8,
     "availableStock": 11,
     "careLevel": "Easy",
-    "description": "Round leaves and minimalist look make it a modern favorite.",
+    "description": "Distinguished by its unique, pancake or coin-shaped leaves.\nIts clean, minimalist look makes it a favorite in modern interior design.\nIt is easy to propagate and readily produces 'pups' or baby plants.\nBelieved to bring good fortune, money, and abundance.\nA delightful, mid-sized houseplant for any bright spot.",
     "image": "https://substackcdn.com/image/fetch/$s_!oupG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866cf57c-7b32-4547-bba2-9291dbedba91_1080x1322.jpeg",
-    "providerName": "UrbanGreen Studio"
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "20-30cm",
+    "petBabySafe": "Non-toxic to cats and dogs (considered a pet-friendly option).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He loves bright, indirect light to keep his leaves flat and round. Rotate him often, as he will lean toward the light source. Too much direct sun will burn his leaves.",
+      "Watering": "Water him thoroughly when the soil is mostly dry, usually once a week. He doesn't like his roots sitting in water, so ensure good drainage.",
+      "Fertilizing": "You’ll get more vigorous growth and 'pups' if you give him a balanced liquid fertilizer once a month during the spring and summer growing seasons."
+    }
   },
   {
     "plantId": 12,
@@ -139,9 +227,17 @@
     "rating": 4.7,
     "availableStock": 9,
     "careLevel": "Medium",
-    "description": "Glossy leaves and strong vertical growth for a modern look.",
+    "description": "Known for its large, thick, dark-green, glossy, oval-shaped leaves.\nIt can grow into an impressive indoor tree over many years.\nA robust air-purifier that adds vertical interest to a room.\nIts modern, bold foliage is a staple in design-forward homes.\nRelatively low-maintenance once established.",
     "image": "https://www.beardsanddaisies.co.uk/cdn/shop/products/BD_H_M_231_a859ecdb-9305-45f7-bb9e-4ef95de9a920.jpg?v=1675260237",
-    "providerName": "Leaf & Co."
+    "providerName": "Leaf & Co.",
+    "plantHeight": "40-60cm",
+    "petBabySafe": "Mildly toxic to pets (can cause oral and digestive irritation due to the milky sap/latex if ingested).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "He prefers bright, indirect light for the best growth and leaf color. In low light, he will grow tall and leggy. Direct morning sun is usually fine, but avoid harsh afternoon sun.",
+      "Watering": "He likes to dry out slightly between waterings. Water him when the top 2 inches of soil are dry. Overwatering can lead to yellow leaves and leaf drop.",
+      "Cleaning": "Wipe his large, glossy leaves with a damp cloth every month to keep them dust-free and allow for maximum light absorption."
+    }
   },
   {
     "plantId": 13,
@@ -151,9 +247,17 @@
     "rating": 4.5,
     "availableStock": 13,
     "careLevel": "Medium",
-    "description": "Lush fronds that remove toxins and add greenery to corners.",
+    "description": "Lush, arching, and feathery green fronds for a classic look.\nExcellent for removing toxins like formaldehyde from the air.\nAdds a tropical, verdant touch, great in hanging baskets.\nRequires high humidity and consistent moisture to look its best.\nWorks well in bathrooms or bright, shaded porches.",
     "image": "https://5.imimg.com/data5/SELLER/Default/2022/9/CU/SW/BG/159591572/boston-fern-indoor-plant.jpg",
-    "providerName": "BloomHouse"
+    "providerName": "BloomHouse",
+    "plantHeight": "30-40cm",
+    "petBabySafe": "Non-toxic to cats and dogs (completely safe, making it a wonderful choice for homes with animals).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He prefers bright, indirect light. Direct sun will scorch his delicate fronds. A north or east-facing window is usually ideal for him.",
+      "Watering": "He is very thirsty and likes to be consistently moist. Do not let the soil dry out completely. Check the soil frequently and water when the top feels just barely dry.",
+      "Humidity": "The Boston Fern loves high humidity. Mist him daily, place him on a pebble tray with water, or put him in a humid room like a bathroom."
+    }
   },
   {
     "plantId": 14,
@@ -163,9 +267,17 @@
     "rating": 4.4,
     "availableStock": 10,
     "careLevel": "Medium",
-    "description": "Delicate trailing succulent perfect for hanging planters.",
+    "description": "A unique trailing succulent with cascading strands of pea-shaped leaves.\nPerfect for adding texture and visual interest to hanging planters.\nWater is stored in its small, spherical 'pearls' or leaves.\nLooks beautiful draping over the edge of a shelf or mantle.\nRequires careful watering to prevent rot.",
     "image": "https://cdn11.bigcommerce.com/s-oqm1pc/images/stencil/1280x1280/products/1158/19961/SOP_Customer_Photo__25896.1718964935.jpg?c=3",
-    "providerName": "Cactus Lane"
+    "providerName": "Cactus Lane",
+    "plantHeight": "10-15cm (trailing length varies)",
+    "petBabySafe": "Toxic to pets (can cause mild vomiting and diarrhea if ingested, and dermal irritation upon contact with skin).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He loves bright light, and can tolerate a few hours of direct morning sun. Strong, direct afternoon sun should be avoided as it can burn the delicate 'pearls.'",
+      "Watering": "Water him very sparingly, only when the 'pearls' look slightly shriveled and the soil is completely dry. Less is always more with this succulent to avoid root rot.",
+      "Drainage": "Use a very porous, well-draining soil mix (like a succulent or cactus mix) and ensure his pot has excellent drainage holes."
+    }
   },
   {
     "plantId": 15,
@@ -175,8 +287,316 @@
     "rating": 4.8,
     "availableStock": 5,
     "careLevel": "Medium",
-    "description": "Graceful indoor palm that adds tropical vibes and fresh air.",
+    "description": "A lush, fast-growing indoor palm with feather-like, arching fronds.\nIt is one of the best plants for filtering indoor air and adding humidity.\nCreates an instant, graceful, tropical atmosphere in large rooms.\nNeeds a moderate amount of care to prevent brown leaf tips.\nA popular and attractive choice for corners and empty spaces.",
     "image": "https://agriaquabd.com/wp-content/uploads/2024/03/Areca-Palm-Plant-Agri-Aqua-Bd.jpg",
-    "providerName": "UrbanGreen Studio"
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "80-100cm",
+    "petBabySafe": "Non-toxic to cats and dogs (a very popular and safe choice for homes with pets).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "He thrives in bright, indirect light. Place him near a large, sunny window (east or west-facing is ideal) but out of the direct blast of the sun, which can scorch his fronds.",
+      "Watering": "He likes to stay consistently moist, especially during the growing season. Water him when the top 1-2 inches of soil feel dry. Do not let him dry out completely.",
+      "Humidity": "High humidity is key to keeping his tips from turning brown. Mist him regularly, especially in dry winter months."
+    }
+  },
+  {
+    "plantId": 16,
+    "plantName": "Cast Iron Plant",
+    "category": "Low Light",
+    "price": 30,
+    "rating": 4.5,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "Named for its ability to withstand extreme neglect and poor conditions.\nFeatures dark, glossy green leaves that grow straight up.\nExcellent choice for deep shade or cold corners.\nIt is almost impossible to kill, making it perfect for novices.\nSlow-growing, requiring minimal repotting.",
+    "image": "https://www.thespruce.com/thmb/pXqH4M9w2qL4tF_4vM6bYxQG_Qk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cast-iron-plant-aspidistra-elatior-1902809-02-a42e77b4d32a49859f515e016f4ef8c4.jpg",
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "40-50cm",
+    "petBabySafe": "Non-toxic to cats and dogs (one of the safest plants for homes with pets and children).",
+    "nurseryPotSize": "12cm, 21cm",
+    "likes": {
+      "Light": "He prefers low light or deep shade and should never be exposed to direct sunlight, which can burn his leaves. A north-facing window or dark corner is ideal.",
+      "Watering": "He is drought-tolerant and should be watered only when the soil is completely dry. Water sparingly in the winter months.",
+      "Temperature": "He can tolerate a wider temperature range than most houseplants, even brief periods of cold, living up to his 'Cast Iron' name."
+    }
+  },
+  {
+    "plantId": 17,
+    "plantName": "Bird of Paradise",
+    "category": "Tropical",
+    "price": 55,
+    "rating": 4.7,
+    "availableStock": 4,
+    "careLevel": "Medium",
+    "description": "Boasts large, banana-like leaves, bringing a dramatic flair to any space.\nCan grow quite tall, resembling a small indoor tree.\nKnown for its striking, exotic flower (though rare indoors).\nA statement plant that thrives in bright conditions.\nPerfect for adding height and tropical ambiance.",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/stelis-reginae-plant-in-pot-against-white-wall-royalty-free-image-1675713295.jpg?crop=0.668xw:1.00xh;0.185xw,0&resize=640:*",
+    "providerName": "Leaf & Co.",
+    "plantHeight": "80-120cm",
+    "petBabySafe": "Mildly toxic to pets (can cause mild digestive upset, especially from the seeds).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "He loves bright light and can handle some direct morning sun. The brighter the light, the faster he will grow and the higher the chance of him producing flowers.",
+      "Watering": "Keep the soil consistently moist during the spring and summer. Allow the top inch of soil to dry out before watering again. Reduce watering in winter.",
+      "Fertilizing": "Feed him regularly (monthly) during the growing season with a balanced liquid fertilizer to support his rapid, large leaf growth."
+    }
+  },
+  {
+    "plantId": 18,
+    "plantName": "Haworthia Zebra",
+    "category": "Succulent",
+    "price": 12,
+    "rating": 4.6,
+    "availableStock": 25,
+    "careLevel": "Easy",
+    "description": "A small, cute succulent with thick, dark green leaves.\nDistinguished by its prominent white, zebra-like horizontal stripes.\nIdeal for windowsills, desks, or terrariums.\nExtremely easy to care for and very drought-tolerant.\nSlow-growing and maintains a small size.",
+    "image": "https://www.ugaoo.com/cdn/shop/files/Haworthia-Zebra-in-small-white-pot-Plant-Ugaoo-store-min.webp?v=1741753940&width=1100",
+    "providerName": "Cactus Lane",
+    "plantHeight": "5-10cm",
+    "petBabySafe": "Non-toxic to cats and dogs (a safe and compact addition to any pet-friendly home).",
+    "nurseryPotSize": "8cm",
+    "likes": {
+      "Light": "He prefers bright, indirect light, like an east or west-facing window. Too much direct, hot sun can cause the leaves to turn red or yellow.",
+      "Watering": "As a succulent, he requires minimal watering. Water him thoroughly only when the soil has been completely dry for several days. Err on the side of underwatering.",
+      "Soil": "He needs a fast-draining soil mix, ideally a commercial cactus or succulent mix, to prevent water from sitting around his roots."
+    }
+  },
+  {
+    "plantId": 19,
+    "plantName": "Syngonium Pink",
+    "category": "Vining",
+    "price": 20,
+    "rating": 4.7,
+    "availableStock": 14,
+    "careLevel": "Easy",
+    "description": "Features beautiful arrow-shaped leaves with striking pink variegation.\nStarts bushy but will eventually trail or climb with support.\nAdds a pop of vibrant color to any plant collection.\nEasy to care for and adapts well to indoor conditions.\nYounger leaves are pink, turning greener as they mature.",
+    "image": "https://m.media-amazon.com/images/I/81xUe6V-RHL._AC_UF890,1000_QL80_.jpg",
+    "providerName": "BloomHouse",
+    "plantHeight": "15-25cm (trailing length varies)",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates which can cause painful mouth irritation and vomiting if chewed).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "She needs bright, indirect light to maintain her vibrant pink coloring. Too little light will cause the leaves to revert to green. Direct sun should be avoided.",
+      "Watering": "She likes to stay consistently moist, but not soaking wet. Water her when the top inch of soil is dry. She is very forgiving if you miss a watering.",
+      "Humidity": "She appreciates average to high humidity. Occasional misting or placing her near a humidifier will keep her looking fresh."
+    }
+  },
+  {
+    "plantId": 20,
+    "plantName": "Kimberly Queen Fern",
+    "category": "Air Purifier",
+    "price": 24,
+    "rating": 4.5,
+    "availableStock": 11,
+    "careLevel": "Easy",
+    "description": "Known for its upright, darker green, sword-like fronds.\nLess messy and more drought-tolerant than the Boston Fern.\nAn excellent natural humidifier and air purifier.\nAdds a structured, lush green texture to a room.\nIdeal for areas with filtered light.",
+    "image": "https://m.media-amazon.com/images/I/61N+kFf8RkL._AC_UF890,1000_QL80_.jpg",
+    "providerName": "BloomHouse",
+    "plantHeight": "40-60cm",
+    "petBabySafe": "Non-toxic to cats and dogs (a safe and air-purifying choice for pet owners).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "She prefers bright, indirect light but can tolerate medium shade. Avoid direct sunlight which will scorch her fronds. Good light encourages a full, upright shape.",
+      "Watering": "Keep the soil consistently moist but never soggy. Water thoroughly when the top layer of soil feels dry to the touch. She appreciates consistency.",
+      "Humidity": "She loves humidity. Mist the fronds regularly, particularly in warmer months, or place her in a naturally humid area."
+    }
+  },
+  {
+    "plantId": 21,
+    "plantName": "Anthurium (Red)",
+    "category": "Flowering",
+    "price": 28,
+    "rating": 4.7,
+    "availableStock": 9,
+    "careLevel": "Medium",
+    "description": "Features waxy, heart-shaped red 'flowers' (spathes) and dark foliage.\nKnown for blooming almost continuously indoors under the right care.\nAdds a modern, tropical look with a splash of color.\nExcellent air-purifying qualities, especially for ammonia.\nRequires consistent warmth and high humidity.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Anthurium_andraeanum_%27Red_Heart%27.jpg/800px-Anthurium_andraeanum_%27Red_Heart%27.jpg",
+    "providerName": "BloomHouse",
+    "plantHeight": "30-40cm",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates which cause oral irritation, swelling, and difficulty swallowing if ingested).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He needs bright, indirect light to encourage continuous flowering. Too little light will result in few to no flowers. Avoid direct, harsh sun.",
+      "Watering": "Keep the soil lightly moist, but allow the top inch to dry out between waterings. He is sensitive to overwatering, which causes root rot.",
+      "Humidity": "He loves high humidity (50% or higher). Misting daily or placing him near a humidifier is recommended to keep his leaves and flowers healthy."
+    }
+  },
+  {
+    "plantId": 22,
+    "plantName": "Neon Pothos",
+    "category": "Vining",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 15,
+    "careLevel": "Easy",
+    "description": "Features incredibly vibrant, electric lime-green leaves.\nA stunning color variation that brightens any dark corner.\nEasy to grow and can be trained to climb or trail.\nHighly popular due to its low-maintenance requirements.\nThe vibrant color makes it a striking contrast to other green plants.",
+    "image": "https://cdn.shopify.com/s/files/1/0691/8363/5772/files/Neon_Pothos_plant_in_black_plastic_pot_1_600x600.jpg?v=1740762150",
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "20-30cm (trailing length varies)",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates, causing oral irritation and digestive upset if ingested).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "She needs bright, indirect light to maintain her neon color. In low light, she will lose her brightness and become a duller green. Avoid strong direct sun.",
+      "Watering": "She is drought-tolerant and likes to dry out between waterings. Water her when the top 2 inches of soil are completely dry. Overwatering is a common cause of yellow leaves.",
+      "Soil": "Use a well-aerated, quick-draining potting mix to ensure the roots don't sit in excess water."
+    }
+  },
+  {
+    "plantId": 23,
+    "plantName": "Philodendron Birkin",
+    "category": "Decorative Foliage",
+    "price": 35,
+    "rating": 4.6,
+    "availableStock": 7,
+    "careLevel": "Medium",
+    "description": "Known for its beautiful, dark green leaves with creamy-white pinstripes.\nEach new leaf unfurls slightly differently, adding unique interest.\nA compact, non-vining Philodendron, ideal for tables or desks.\nBrings a chic, subtle pattern to interior spaces.\nRelatively rare and highly sought after by collectors.",
+    "image": "https://www.beardsanddaisies.co.uk/cdn/shop/products/BD_H_M_153_2000x.jpg?v=1675260237",
+    "providerName": "Leaf & Co.",
+    "plantHeight": "20-30cm",
+    "petBabySafe": "Toxic to pets (contains calcium oxalates, ingestion can cause painful mouth swelling and stomach upset).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He prefers bright, indirect light. This is essential for maintaining the white pinstripe variegation. Too little light will cause the stripes to fade or disappear.",
+      "Watering": "Allow the top half of the soil to dry out between waterings. He appreciates consistently moist soil but hates being waterlogged. Ensure excellent drainage.",
+      "Cleaning": "Wipe his leaves occasionally to keep them dust-free, allowing him to absorb maximum light and show off his unique pattern."
+    }
+  },
+  {
+    "plantId": 24,
+    "plantName": "Christmas Cactus",
+    "category": "Succulent",
+    "price": 17,
+    "rating": 4.5,
+    "availableStock": 18,
+    "careLevel": "Easy",
+    "description": "A popular holiday plant known for its vibrant, late-season blooms.\nFeatures flattened, segmented green stems instead of spines.\nOften blooms in response to cooler temperatures and shorter days.\nUnlike desert cacti, it is a tropical forest plant.\nCan live for many decades with proper care.",
+    "image": "https://media.istockphoto.com/id/1183595701/photo/close-up-of-a-christmas-cactus-flower-schlumbergera.jpg?s=612x612&w=0&k=20&c=wM-lU6uD_q40_0o276x9u82rF3dO4x0W1L_4lQGf_I4=",
+    "providerName": "Cactus Lane",
+    "plantHeight": "15-25cm (trailing)",
+    "petBabySafe": "Non-toxic to cats and dogs (a safe choice, though eating the fibrous material can cause mild intestinal upset).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He prefers bright, indirect light. Avoid strong, harsh sun, which can burn his segments. Too little light will result in fewer blooms.",
+      "Watering": "Unlike desert cacti, he needs more frequent watering. Water when the top inch of soil is dry. Never let the soil dry out completely for long periods.",
+      "Blooming": "To encourage blooms, reduce watering and ensure he receives 12-14 hours of continuous darkness per night for 6-8 weeks in the early autumn."
+    }
+  },
+  {
+    "plantId": 25,
+    "plantName": "Wandering Jew (Tradescantia)",
+    "category": "Vining",
+    "price": 14,
+    "rating": 4.7,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "Known for its stunning purple and silver-striped foliage.\nExtremely fast-growing and easy to propagate from cuttings.\nPerfect for hanging planters where it can cascade beautifully.\nCan add a dramatic splash of color to any room.\nVery hardy and forgives occasional neglect.",
+    "image": "https://www.gardenia.net/storage/app/public/uploads/images/detail/WANDERING%20JEW.webp",
+    "providerName": "BloomHouse",
+    "plantHeight": "10-20cm (trailing length varies)",
+    "petBabySafe": "Mildly toxic to pets (can cause skin irritation and mild digestive upset if contact or ingestion occurs).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "She needs bright, indirect light to maintain her deep purple and vibrant silver coloring. In low light, the purple coloring will fade to green.",
+      "Watering": "She likes to stay consistently moist, but not wet. Water her when the top inch of soil is dry. She will quickly wilt when she is thirsty.",
+      "Pruning": "Pinch off the ends of her stems regularly to encourage bushier, fuller growth instead of long, sparse trails."
+    }
+  },
+  {
+    "plantId": 26,
+    "plantName": "Money Tree (Pachira Aquatica)",
+    "category": "Indoor Tree",
+    "price": 38,
+    "rating": 4.9,
+    "availableStock": 8,
+    "careLevel": "Easy",
+    "description": "Often sold with a distinctive braided trunk for good luck.\nFeatures palmate leaves that resemble large fans.\nBelieved to bring prosperity and positive energy.\nHardy and adaptable to average indoor conditions.\nAn eye-catching, mid-sized floor plant.",
+    "image": "https://m.media-amazon.com/images/I/81d4Vf8k9xL._AC_UF890,1000_QL80_.jpg",
+    "providerName": "Leaf & Co.",
+    "plantHeight": "50-70cm",
+    "petBabySafe": "Non-toxic to cats and dogs (a completely safe option for homes with pets).",
+    "nurseryPotSize": "21cm",
+    "likes": {
+      "Light": "He prefers bright, indirect light, but can tolerate medium to low light, though his growth will slow. Rotate him frequently to ensure his trunk grows straight.",
+      "Watering": "Water him thoroughly until water runs out of the drainage holes. Allow the soil to dry out almost completely between waterings to prevent root rot in the braided trunk.",
+      "Humidity": "He appreciates high humidity. Group him with other plants or use a pebble tray if your air is very dry."
+    }
+  },
+  {
+    "plantId": 27,
+    "plantName": "Hoya Carnosa (Wax Plant)",
+    "category": "Vining",
+    "price": 26,
+    "rating": 4.5,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "Known for its thick, waxy leaves on trailing or climbing vines.\nProduces beautiful, fragrant, star-shaped clusters of pink flowers.\nEasy to care for and can tolerate some neglect.\nIts waxy foliage helps it retain moisture.\nA classic houseplant that is very long-lived.",
+    "image": "https://wellingtonfleur.ca/cdn/shop/files/HoyaCarnosaRope2048-WED_5073.jpg?v=1726337753",
+    "providerName": "Leaf & Co.",
+    "plantHeight": "10-20cm (trailing length varies)",
+    "petBabySafe": "Non-toxic to cats and dogs (a safe choice for pet owners).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "She needs bright, indirect light to encourage flowering. She can tolerate lower light, but she likely won't bloom. A few hours of morning sun is beneficial.",
+      "Watering": "As a semi-succulent, she likes to dry out thoroughly between waterings. Overwatering is the most common way to kill a Hoya. Water sparingly in winter.",
+      "Patience": "She dislikes being moved and needs time to establish herself before she flowers. Keep her happy in one spot for the best results."
+    }
+  },
+  {
+    "plantId": 28,
+    "plantName": "String of Hearts",
+    "category": "Vining",
+    "price": 22,
+    "rating": 4.6,
+    "availableStock": 15,
+    "careLevel": "Medium",
+    "description": "Features delicate, heart-shaped leaves on thin, trailing stems.\nThe leaves often have beautiful silver and green variegation.\nPerfect for high shelves or hanging baskets where it can dangle.\nA semi-succulent, making it relatively drought-tolerant.\nKnown for its romantic, dainty appearance.",
+    "image": "https://www.beardsanddaisies.co.uk/cdn/shop/files/BD_H_M_280_1_2000x.jpg?v=1708453488",
+    "providerName": "Cactus Lane",
+    "plantHeight": "5-10cm (trailing length varies)",
+    "petBabySafe": "Non-toxic to cats and dogs (a popular and safe choice for homes with pets).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "He needs bright light, including some direct sun (especially morning sun), to maintain the leaf variegation and compact growth. In low light, the strings will become leggy.",
+      "Watering": "Wait until the soil is completely dry, and the 'hearts' feel slightly soft or puckered before watering. Water from the bottom to prevent water from sitting on the crown.",
+      "Soil": "Use a very gritty, fast-draining soil mix, similar to what you would use for Cacti and succulents."
+    }
+  },
+  {
+    "plantId": 29,
+    "plantName": "Strelitzia Nicolai (Giant BOP)",
+    "category": "Indoor Tree",
+    "price": 60,
+    "rating": 4.7,
+    "availableStock": 5,
+    "careLevel": "Medium",
+    "description": "A very large, dramatic indoor plant with huge, paddle-shaped leaves.\nCreates an instant jungle feel, growing much larger than the regular Bird of Paradise.\nKnown for its height and bold structural presence.\nRequires substantial space and plenty of light to flourish.\nIts leaves naturally split, which is normal for the plant.",
+    "image": "https://www.ugaoo.com/cdn/shop/files/strelitzia-nicolai-plant-3_1600x.jpg?v=1680187841",
+    "providerName": "UrbanGreen Studio",
+    "plantHeight": "100-150cm",
+    "petBabySafe": "Mildly toxic to pets (can cause mild digestive upset, especially from the seeds and flowers).",
+    "nurseryPotSize": "24cm",
+    "likes": {
+      "Light": "He demands the brightest spot you have. Place him right in front of a south or west-facing window. Bright light is crucial for his health and rapid growth.",
+      "Watering": "Keep the soil consistently moist during the active growing season (spring/summer). Allow the top 1-2 inches of soil to dry out before rewatering. Do not let him sit in soggy soil.",
+      "Maturity": "He takes several years to reach his full, giant potential, but his large leaves are worth the wait."
+    }
+  },
+  {
+    "plantId": 30,
+    "plantName": "Oxalis Triangularis (Shamrock Plant)",
+    "category": "Decorative Foliage",
+    "price": 20,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "Features three deep purple, triangular, clover-like leaves.\nThe leaves fold up at night or when the light is low.\nProduces small, delicate white or pink flowers.\nA beautiful, low-growing plant with a dynamic appearance.\nGrows from small bulbs (rhizomes) under the soil.",
+    "image": "https://www.ugaoo.com/cdn/shop/files/OxalisTriangularis_1.webp?v=1741753940&width=1100",
+    "providerName": "BloomHouse",
+    "plantHeight": "15-20cm",
+    "petBabySafe": "Toxic to pets (contains soluble oxalates which can cause kidney damage in large quantities, though mild ingestion usually causes digestive upset).",
+    "nurseryPotSize": "12cm",
+    "likes": {
+      "Light": "She loves bright, indirect light. This is necessary to keep her leaves a deep, rich purple color. Too little light will cause her leaves to turn green or become sparse.",
+      "Watering": "Keep her soil consistently moist, especially when she is actively growing (spring/summer). Allow the very top layer of soil to dry out before watering again.",
+      "Dormancy": "She often goes dormant in winter, during which her leaves may die back. Reduce watering until she starts growing again in the spring."
+    }
   }
 ]
