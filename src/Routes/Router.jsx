@@ -11,6 +11,8 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import PlantDetails from "../Pages/PlantDetails";
 import FAQPage from "../Pages/FAQPage";
+import Blogs from "../Pages/Blogs";
+import BlogcardDetails from "../Component/BlogcardDetails";
 
 export const router = createBrowserRouter([
   {
@@ -28,19 +30,30 @@ export const router = createBrowserRouter([
     loader: () => fetch("/plants.json"),
   },
   {
+    path: "/plant-details/:id",
+    element: <PlantDetails />,
+    loader: () => fetch("/plants.json"),
+  },
+
+  {
     path: "/about",
     Component: About,
+  },
+  {
+    path: "/blogs",
+    Component: Blogs,
+    loader: () => fetch("/blogs.json"),
+  },
+  {
+    path: "/blog-details/:id",
+    Component: BlogcardDetails,
+    loader: () => fetch("/blogs.json"),
   },
   {
     path: "/faq",
     Component: FAQPage,
   },
 
-  {
-    path: "/plant-details/:id",
-    element: <PlantDetails />,
-    loader: () => fetch("/plants.json"),
-  },
   {
     path: "/profile",
     element: (
