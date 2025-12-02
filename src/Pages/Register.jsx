@@ -133,7 +133,7 @@ const Register = () => {
                 />
                 <span
                   onClick={() => setShow(!show)}
-                  className="absolute right-[12px] top-[45px] cursor-pointer z-50"
+                  className="absolute right-3 top-[45px] cursor-pointer z-50"
                 >
                   {show ? <VscEye size={20} /> : <VscEyeClosed size={20} />}
                 </span>

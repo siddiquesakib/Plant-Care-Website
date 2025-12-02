@@ -11,6 +11,7 @@ import Review from "../Component/Review";
 import Loading from "../Pages/Loading";
 import FAQ from "../Component/FAQ";
 import Video from "../Component/Video";
+import HomeBlogSection from "../Component/HomeBlogSection";
 
 const HomeLayout = () => {
   const loadData = useLoaderData();
@@ -37,17 +38,17 @@ const HomeLayout = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 bg-linear-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent mb-8">
               Top Rated Indoor Plants
             </h1>
-            <div className="relative flex hover:underline group">
-              <Link to="/plants" className="text-gray-700">
-                All Plants
-              </Link>
-
-              <span className="transform transition-transform duration-500 ease-out group-hover:translate-x-[4px] group-hover:-translate-y-[4px] group-hover:scale-105 preserve-3d">
+            <div className="relative flex  group">
+              <Link
+                to="/plants"
+                className="hidden md:flex items-center gap-2 text-green-600 hover:text-green-700 font-semibold group"
+              >
+                View All Plants
                 <IoIosArrowRoundForward
-                  className="hidden md:block absolute md:top-0 -rotate-45"
-                  size={22}
+                  className="transform group-hover:translate-x-1 transition-transform"
+                  size={24}
                 />
-              </span>
+              </Link>
             </div>
           </div>
           <TopCard loadData={loadData} />
@@ -64,7 +65,9 @@ const HomeLayout = () => {
           </div>
           <Team />
 
-          <Video/>
+          <Video />
+
+          <HomeBlogSection />
 
           <div className="flex justify-between pt-25">
             <div className=" ">

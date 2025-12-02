@@ -18,7 +18,6 @@ const Video = () => {
             height="100%"
             src="https://www.youtube.com/embed/MucqGCYA2H8"
             title="Plant Care Guide"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             className="w-full h-full"

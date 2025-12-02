@@ -1,5 +1,5 @@
 import React from "react";
-import { IoIosStarOutline } from "react-icons/io";
+import { IoIosArrowRoundForward, IoIosStarOutline } from "react-icons/io";
 import { Link } from "react-router";
 
 const TopCard = ({ loadData = [], limit = 8 }) => {
@@ -41,6 +41,17 @@ const TopCard = ({ loadData = [], limit = 8 }) => {
           </div>
         </div>
       ))}
+
+      {/* Mobile View All Button */}
+      <div className="md:hidden mt-8 text-center">
+        <Link
+          to="/plants"
+          className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-xl hover:bg-green-700 font-semibold transition-all"
+        >
+          View All plants
+          <IoIosArrowRoundForward size={24} />
+        </Link>
+      </div>
     </div>
   );
 };

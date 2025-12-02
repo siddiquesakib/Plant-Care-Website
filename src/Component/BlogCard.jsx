@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const BlogCard = ({ review }) => {
   return (
-    <div className="group relative bg-gradient-to-br from-white to-green-50 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-transparent hover:border-green-300 h-full">
+    <div className="group relative bg-linear-to-br from-white to-green-50 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-transparent hover:border-green-300 h-full">
       {/* Image with rounded corners inside */}
       <div className="p-4">
         <div className="w-full h-64 rounded-2xl overflow-hidden relative">
@@ -32,7 +32,7 @@ const BlogCard = ({ review }) => {
         {/* Author Info with different style */}
         <div className="flex items-center justify-between bg-white/60 backdrop-blur-sm p-3 rounded-xl border border-green-100">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-green-400 via-emerald-500 to-teal-500 flex items-center justify-center text-white font-bold text-lg shadow-md">
+            <div className="w-11 h-11 rounded-xl bg-linear-to-br from-green-400 via-emerald-500 to-teal-500 flex items-center justify-center text-white font-bold text-lg shadow-md">
               {review.author.charAt(0).toUpperCase()}
             </div>
             <div>

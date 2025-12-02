@@ -53,7 +53,7 @@ const BlogcardDetails = () => {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-b from-green-50 via-white to-emerald-50/30 py-12">
+      <div className="min-h-screen bg-linear-to-b from-green-50 via-white to-emerald-50/30 py-12">
         <div className="max-w-4xl mx-auto px-4">
           {/* Hero Image */}
           <div className="w-full h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl mb-8">
@@ -119,7 +119,7 @@ const BlogcardDetails = () => {
               {/* Back Button */}
               <button
                 onClick={() => navigate("/blogs")}
-                className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-emerald-500 text-white px-6 sm:px-8 py-3 rounded-xl hover:from-green-700 hover:to-emerald-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-2"
+                className="w-full sm:w-auto bg-linear-to-r from-green-600 to-emerald-500 text-white px-6 sm:px-8 py-3 rounded-xl hover:from-green-700 hover:to-emerald-600 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 <svg
                   className="w-5 h-5"

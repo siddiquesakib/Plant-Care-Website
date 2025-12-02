@@ -43,7 +43,7 @@ const Tips = () => {
         <div className="bg-linear-to-br from-green-800 to-emerald-900 text-white p-12 hover:from-green-700 hover:to-emerald-800 transition-all duration-500 group">
           {" "}
           <h1 className="mb-20 text-3xl font-semibold group-hover:scale-105 transition-transform">
-            🪴 Pots
+            Pots
           </h1>{" "}
           <p className="font-light text-base leading-relaxed">
             Choose pots with proper drainage holes to avoid soggy roots. When
