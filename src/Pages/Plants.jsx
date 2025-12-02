@@ -36,7 +36,7 @@ const Plants = () => {
 
   return (
     <div>
-      <Navbar />
+    <title>Plant Care | Plants </title>   <Navbar />
       <div className="bg-linear-to-b from-green-50/50 via-white to-green-50/30 min-h-screen mb-16">
         <div className="container mx-auto pt-10 px-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold bg-linear-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent">

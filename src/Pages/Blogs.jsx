@@ -10,7 +10,7 @@ const Blogs = () => {
   return (
     <>
       <title>Plant Care | Blog </title> <Navbar />
-      <div className="bg-linear-to-b from-green-50/50 via-white to-emerald-50/30 min-h-screen">
+      <div className="bg-linear-to-b from-green-50/50 via-white to-emerald-50/30 min-h-screen mb-16">
         <section className=" py-10">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6 bg-linear-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent">

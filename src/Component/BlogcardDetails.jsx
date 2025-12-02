@@ -139,7 +139,9 @@ const BlogcardDetails = () => {
 
               {/* Share Section */}
               <div className="flex gap-2 sm:gap-4 items-center">
-                <h1 className="text-sm sm:text-base font-medium text-gray-700">Share with</h1>
+                <h1 className="text-sm sm:text-base font-medium text-gray-700">
+                  Share with
+                </h1>
                 <Link
                   className="hover:text-green-700 transition-colors text-gray-600"
                   target="_blank"
@@ -148,10 +150,14 @@ const BlogcardDetails = () => {
                   <FaFacebook size={20} className="sm:w-5 sm:h-5" />
                 </Link>
 
-                <FaPinterest
+                <Link
                   className="hover:text-green-700 transition-colors text-gray-600 cursor-pointer"
-                  size={20}
-                />
+                  target="_blank"
+                  to={"https://www.pinterest.com/"}
+                >
+                  {" "}
+                  <FaPinterest size={20} />
+                </Link>
 
                 <Link
                   className="hover:text-green-700 transition-colors text-gray-600"

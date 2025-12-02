@@ -270,13 +270,13 @@ const Profile = () => {
                 <button
                   type="button"
                   onClick={() => setShowModal(false)}
-                  className="flex-1 px-6 py-3.5 border-2 border-gray-300 rounded-xl hover:bg-gray-50 transition-all font-bold text-gray-700"
+                className="flex-1 cursor-pointer px-6 py-3.5 border-2 border-gray-300 rounded-xl hover:bg-gray-50 transition-all font-bold text-gray-700"
                 >
                   Cancel
                 </button>
                 <button
                   type="submit"
-                  className="flex-1 px-6 py-3.5 bg-linear-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 text-white rounded-xl transition-all font-bold shadow-lg hover:shadow-xl"
+                className="flex-1 cursor-pointer px-6 py-3.5 bg-linear-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 text-white rounded-xl transition-all font-bold shadow-lg hover:shadow-xl"
                 >
                   Save Changes
                 </button>

@@ -73,18 +73,20 @@ function FooterComponent() {
   return (
     <footer className="text-sm font-sans bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 py-12 flex flex-col md:flex-row justify-between items-start gap-8">
-        <div className="flex flex-col items-start gap-3">
+        <div className="flex flex-col lg:justify-between lg:item items-start gap-3">
           <Link
             to="/"
             className="text-3xl font-bold bg-linear-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-             Plant Care
+            Plant Care
           </Link>
-          <p className="text-xs text-gray-400">
-            © 2025 Plant Care. All rights reserved.
-          </p>
+
           <p className="text-sm text-gray-400 max-w-xs">
             Bringing nature home, one plant at a time.
+          </p>
+
+          <p className="text-xs text-gray-400">
+            © 2025 Plant Care. All rights reserved.
           </p>
         </div>
 
